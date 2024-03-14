@@ -1,0 +1,25 @@
+jira_server:
+jira_user:
+jira_token:
+enable_jira: 'false'
+jira_projecey:
+env: "uat"
+jira_epic_key:
+jira_label:
+activ_web: 'true'
+browserstack_web : 'false'
+browserstack_parallel: 'true'
+browserstack_single: 'false'
+android_emulator: 'false'
+ios_simulator: 'false'
+android_Port: 'http://localhost:4723/wd/hub'
+ios_port: 'http://localhost:4724/wd/hub'
+tags:
+  - '@Listview'
+  - '@Quickview'
+  - '@Login'
+  - '@Logout'
+# For Members in the /*_environment.py, linked to the '@Login' tag
+standard_member:
+  username_01: 'waridi'
+  password_01: 'Bushfire20!'
